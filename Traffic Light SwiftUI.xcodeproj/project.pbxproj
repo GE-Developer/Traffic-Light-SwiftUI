@@ -11,6 +11,7 @@
 		EE6FBAFB2666AFD00074D583 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6FBAFA2666AFD00074D583 /* ContentView.swift */; };
 		EE6FBAFD2666AFD30074D583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6FBAFC2666AFD30074D583 /* Assets.xcassets */; };
 		EE6FBB002666AFD30074D583 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6FBAFF2666AFD30074D583 /* Preview Assets.xcassets */; };
+		EEB64EBB2666B54000ED0EEE /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB64EBA2666B54000ED0EEE /* ColorCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		EE6FBAFC2666AFD30074D583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE6FBAFF2666AFD30074D583 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE6FBB012666AFD30074D583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB64EBA2666B54000ED0EEE /* ColorCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +54,10 @@
 		EE6FBAF72666AFD00074D583 /* Traffic Light SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				EE6FBAF82666AFD00074D583 /* Traffic_Light_SwiftUIApp.swift */,
+				EEB64EB92666B16400ED0EEE /* Supports */,
 				EE6FBAFA2666AFD00074D583 /* ContentView.swift */,
-				EE6FBAFC2666AFD30074D583 /* Assets.xcassets */,
-				EE6FBB012666AFD30074D583 /* Info.plist */,
+				EEB64EBA2666B54000ED0EEE /* ColorCircle.swift */,
+				EE6FBB082666B0F20074D583 /* Resources */,
 				EE6FBAFE2666AFD30074D583 /* Preview Content */,
 			);
 			path = "Traffic Light SwiftUI";
@@ -67,6 +69,23 @@
 				EE6FBAFF2666AFD30074D583 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE6FBB082666B0F20074D583 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE6FBAFC2666AFD30074D583 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EEB64EB92666B16400ED0EEE /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				EE6FBAF82666AFD00074D583 /* Traffic_Light_SwiftUIApp.swift */,
+				EE6FBB012666AFD30074D583 /* Info.plist */,
+			);
+			path = Supports;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +159,7 @@
 			files = (
 				EE6FBAFB2666AFD00074D583 /* ContentView.swift in Sources */,
 				EE6FBAF92666AFD00074D583 /* Traffic_Light_SwiftUIApp.swift in Sources */,
+				EEB64EBB2666B54000ED0EEE /* ColorCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +290,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Traffic Light SwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Traffic Light SwiftUI/Info.plist";
+				INFOPLIST_FILE = "Traffic Light SwiftUI/Supports/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,7 +311,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Traffic Light SwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Traffic Light SwiftUI/Info.plist";
+				INFOPLIST_FILE = "Traffic Light SwiftUI/Supports/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
